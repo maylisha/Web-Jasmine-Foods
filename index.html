@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jasmine Foods</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="#">
+                <span class="brand-color">Jasmine</span> Foods.
+            </a>
+
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Our Menu</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+
+                <a href="#menu" class="btn btn-jasmine ms-lg-3">
+                    Explore Menu
+                </a>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <section class="hero-section py-5" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+                    <span class="badge badge-jasmine mb-3">
+                        Welcome to Jasmine Foods!
+                    </span>
+
+                    <h1 class="hero-title">
+                        Delicious Food,
+                        <span>Happy Moments!</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Nikmati berbagai pilihan makanan lezat
+                        dengan rasa yang istimewa.
+                        Temukan makanan favoritmu hanya di Jasmine Foods!
+                    </p>
+
+                    <a href="#menu" class="btn btn-jasmine btn-lg">
+                        Explore Our Menu
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                    <img src="images/banner.jpg"
+                        class="img-fluid hero-image"
+                        alt="Jasmine Foods">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-lg-5 text-center mb-4">
+                    <img src="images/banner.jpg"
+                        class="img-fluid about-image"
+                        alt="Tentang Jasmine Foods">
+                </div>
+
+                <div class="col-lg-7">
+                    <span class="section-label">About Us</span>
+
+                    <h2 class="section-title">
+                        Welcome to <span>Jasmine Foods</span>
+                    </h2>
+
+                    <p>
+                        Jasmine Foods merupakan usaha di bidang kuliner
+                        yang menyediakan berbagai pilihan makanan
+                        dengan cita rasa yang nikmat.
+                    </p>
+
+                    <p>
+                        Kami menghadirkan beragam menu seperti kebab,
+                        burger, hotdog, pizza, roti abon, roti abon jagung,
+                        dan roti maryam.
+                    </p>
+
+                    <a href="#menu" class="btn btn-jasmine">
+                        See Our Menu
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <section class="menu-section py-5" id="menu">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <span class="section-label">Our Menu</span>
+
+                <h2 class="section-title">
+                    Explore Our <span>Delicious Menu</span>
+                </h2>
+
+                <p>Berbagai pilihan makanan lezat dari Jasmine Foods.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- KEBAB -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card food-card h-100">
+                        <img src="images/kebab.jpg" class="card-img-top" alt="Kebab">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Kebab</h5>
+                            <p class="card-text">
+                                Kebab lezat dengan isian yang menggugah selera.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BURGER -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card food-card h-100">
+                        <img src="images/burger.jpg" class="card-img-top" alt="Burger">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">
+                                Burger dengan kombinasi rasa yang nikmat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HOTDOG -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card food-card h-100">
+                        <img src="images/hotdog.jpg" class="card-img-top" alt="Hotdog">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Hotdog</h5>
+                            <p class="card-text">
+                                Hotdog lezat untuk menemani waktu santai.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PIZZA -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card food-card h-100">
+                        <img src="images/pizza.jpg" class="card-img-top" alt="Pizza">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">
+                                Pizza dengan topping yang menggoda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROTI ABON -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card food-card h-100">
+                        <img src="images/abon.jpg" class="card-img-top" alt="Roti Abon">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Roti Abon</h5>
+                            <p class="card-text">
+                                Roti lembut dengan taburan abon yang lezat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROTI ABON JAGUNG -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card food-card h-100">
+                        <img src="images/abon-jagung.jpg" class="card-img-top" alt="Roti Abon Jagung">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Roti Abon Jagung</h5>
+                            <p class="card-text">
+                                Perpaduan roti, abon, dan jagung yang nikmat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ROTI MARYAM -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card food-card h-100">
+                        <img src="images/maryam.jpg" class="card-img-top" alt="Roti Maryam">
+
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Roti Maryam</h5>
+                            <p class="card-text">
+                                Roti maryam dengan tekstur lembut dan nikmat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- WHY CHOOSE US -->
+    <section class="choose-section py-5">
+        <div class="container text-center">
+
+            <span class="section-label">Why Choose Us?</span>
+
+            <h2 class="section-title mb-5">
+                What Makes Us <span>Special?</span>
+            </h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="choose-card">
+                        <i class="bi bi-heart-fill"></i>
+                        <h5>Made with Love</h5>
+                        <p>Setiap makanan disiapkan dengan penuh perhatian.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="choose-card">
+                        <i class="bi bi-egg-fried"></i>
+                        <h5>Various Menu</h5>
+                        <p>Banyak pilihan makanan untuk berbagai selera.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="choose-card">
+                        <i class="bi bi-emoji-smile-fill"></i>
+                        <h5>Happy Taste</h5>
+                        <p>Menikmati makanan lezat dengan suasana menyenangkan.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section py-5" id="contact">
+        <div class="container text-center">
+
+            <span class="section-label">Contact Us</span>
+
+            <h2 class="section-title">
+                Let's Get in <span>Touch!</span>
+            </h2>
+
+            <p>
+                Ingin mengetahui lebih lanjut tentang Jasmine Foods?
+                Hubungi kami melalui media sosial.
+            </p>
+
+            <a href="#" class="btn btn-jasmine">
+                <i class="bi bi-whatsapp"></i> WhatsApp
+            </a>
+
+            <a href="#" class="btn btn-outline-dark ms-2">
+                <i class="bi bi-instagram"></i> Instagram
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <h4>Jasmine Foods.</h4>
+
+            <p>Delicious Food, Happy Moments!</p>
+
+            <p class="mb-0">
+                &copy; 2026 Jasmine Foods. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
